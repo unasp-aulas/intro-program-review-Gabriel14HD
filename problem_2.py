@@ -1,12 +1,6 @@
 def main(ultimo):
-    return list(range(1, ultimo + 1))
-
-def soma(main):
-    return sum(main)
+    lista = list(range(1, ultimo + 1))
+    valor = sum(lista)
+    return valor, lista
 
 ultimo = 10
-
-#lista = main(ultimo)
-#valor = soma(lista)
-#print(lista)
-#print(valor)
