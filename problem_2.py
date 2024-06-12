@@ -1,6 +1,4 @@
 def main(ultimo):
-    lista = list(range(1, ultimo + 1))
-    valor = sum(lista)
-    return valor, lista
+    return sum(list(range(1, ultimo + 1)))
 
 ultimo = 10
